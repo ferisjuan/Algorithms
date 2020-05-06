@@ -4,11 +4,11 @@ function addUpToV1(n) {
     total += index
   }
   return total;
-}
+} // O(n)
 
 function addUpToV2(n) {
-  return n * (n + 1) / 2;
-}
+  return n * (n + 1) / 2; 
+} // O(1)
 
 function performance(cb, n) {
   let t1 = Date.now();
