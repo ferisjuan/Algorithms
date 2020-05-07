@@ -42,3 +42,4 @@ Make yourself these questrions
   - Can you use the result or method for some other problem?
   - can you improve the performance of your solution?
   - can you think of other ways of refactor?
+  - How have other people solved this problem?
