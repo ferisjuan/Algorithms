@@ -1,4 +1,9 @@
 # Big O notation
+* Use Big O Notation To analyze the performance of an algorithm.
+* Big O gives a high understanding or time or space complexity of an algorithm
+* Big O doen't care about presition, only general trends _Linear_, _quadratic_, _constant_, _etc._
+
+
 ## Time complexity
 Count the number of *simple operations* in the algorithm
 
