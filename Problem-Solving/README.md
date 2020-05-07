@@ -2,10 +2,10 @@
 >A process or set of steps to acomplish a certain task.
 
 ### Problem Solving Aproches (that might work)
-Many of theese strategies are taken from the book **How to solve it** by __George Polya__
+> Many of theese strategies are taken from the book **How to solve it** by __George Polya__
 
 1. Understand the problem
-Ask yourself these questions:
+>Ask yourself these questions:
   - Can I recreate the problem with my own words?
   - What are the inputs that go into the problem?
   - What are the outputs that should come from the solution to the problem?
