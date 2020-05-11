@@ -1,7 +1,7 @@
 ## What is an algorithm
 >A process or set of steps to acomplish a certain task.
 
-### Problem Solving Aproches (that might work)
+### Problem Solving Aproches (Five step Protocol)
 > Many of theese strategies are taken from the book **How to solve it** by __George Polya__
 
 1. Understand the problem
@@ -43,3 +43,8 @@ Make yourself these questrions
   - can you improve the performance of your solution?
   - can you think of other ways of refactor?
   - How have other people solved this problem?
+
+### Problem Solving Patterns
+1. Frequency Counters
+  - Uses objects or sets to collect values/frequesncies of values
+  - Can often avoid the need for nested loops or **O(n^2)** operations with arrays or strings.
