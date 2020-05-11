@@ -17,17 +17,17 @@ function validAnagram(string1, string2){
 
   // Store the letters of the first string in an object that counts them
   for (const key in string1) {
-    let char = string1.charAt(key)
-    lookup[char] = (lookup[char] || 0) + 1;
+    let char1 = string1.charAt(key)
+    lookup[char1] = (lookup[char1] || 0) + 1;
   }
 
   // Store the letters of the first string in an object that counts them
   for (const key in string2) {
-    let char = string2.charAt(key)
-    if (!lookup[char]) {
+    let char2 = string2.charAt(key)
+    if (!lookup[char2]) {
       return false;
     } else {
-      lookup[char] -= 1;
+      lookup[char2] -= 1;
     }
   }
   return true;
