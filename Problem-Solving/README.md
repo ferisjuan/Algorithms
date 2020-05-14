@@ -46,5 +46,11 @@ Make yourself these questrions
 
 ### Problem Solving Patterns
 1. Frequency Counters
+> Use this to compare two lists throug an { key:value } object
   - Uses objects or sets to collect values/frequesncies of values
   - Can often avoid the need for nested loops or **O(n^2)** operations with arrays or strings.
+
+2. Multiple Pointers
+> Very efficient for solving problems with minimal space complexity.
+  - Create pointers or values that correspond to an index or position
+  - Move towards the beginning, end or middle based on a cetain condition
