@@ -45,12 +45,18 @@ Make yourself these questrions
   - How have other people solved this problem?
 
 ### Problem Solving Patterns
-1. Frequency Counters
+**1. Frequency Counters**
 > Use this to compare two lists throug an { key:value } object
   - Uses objects or sets to collect values/frequesncies of values
   - Can often avoid the need for nested loops or **O(n^2)** operations with arrays or strings.
 
-2. Multiple Pointers
-> Very efficient for solving problems with minimal space complexity.
+**2. Multiple Pointers**
+> Very efficient for solving problems with minimal space complexity. **The input array must be sorted**
   - Create pointers or values that correspond to an index or position
   - Move towards the beginning, end or middle based on a cetain condition
+  - Time complexity **O(N)**, Space complexity **O(1)**
+
+**3. Sliding window**
+>This pattern creates a window (range) which can be either an array or a number from one position to another. Is very useful for tracking a subset of data in an array, string, etc.
+  - Create the range
+  - Increase, decrease or close the window depending on a certain condition and create a new window.
