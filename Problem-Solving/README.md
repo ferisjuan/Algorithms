@@ -60,3 +60,4 @@ Make yourself these questrions
 >This pattern creates a window (range) which can be either an array or a number from one position to another. Is very useful for tracking a subset of data in an array, string, etc.
   - Create the range
   - Increase, decrease or close the window depending on a certain condition and create a new window.
+  - Time **O(N)**
