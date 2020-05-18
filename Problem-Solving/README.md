@@ -60,10 +60,11 @@ Make yourself these questrions
 >This pattern creates a window (range) which can be either an array or a number from one position to another. Is very useful for tracking a subset of data in an array, string, etc.
   - Create the range
   - Increase, decrease or close the window depending on a certain condition and create a new window.
-  - Time **O(N)**
+  - Time complexity **O(N)**
 
-**4. Sivide and Conquer**
+**4. Divide and Conquer**
 > This pattern involves dividing a data set into smaller chuncks and then repeating a proccess with a subset of data. __This patter decreases time complexity a lot__
   - Take a set of data
   - Divide into smaller pieces
   - do something to each piece
+  - Time complexity **O(log N)**
