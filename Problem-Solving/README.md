@@ -56,8 +56,14 @@ Make yourself these questrions
   - Move towards the beginning, end or middle based on a cetain condition
   - Time complexity **O(N)**, Space complexity **O(1)**
 
-**3. Sliding window**
+**3. Sliding Window**
 >This pattern creates a window (range) which can be either an array or a number from one position to another. Is very useful for tracking a subset of data in an array, string, etc.
   - Create the range
   - Increase, decrease or close the window depending on a certain condition and create a new window.
   - Time **O(N)**
+
+**4. Sivide and Conquer**
+> This pattern involves dividing a data set into smaller chuncks and then repeating a proccess with a subset of data. __This patter decreases time complexity a lot__
+  - Take a set of data
+  - Divide into smaller pieces
+  - do something to each piece
