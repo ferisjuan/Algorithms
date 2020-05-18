@@ -6,7 +6,7 @@
  */
 
 function countUniqueValues(arr) {
-  let leftPointer = 0
+  let leftPointer = 0;
   let rightPointer = leftPointer + 1;
   
   return arr.length === 0? 0: compareNumbers(rightPointer, arr, leftPointer);
