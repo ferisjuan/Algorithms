@@ -6,16 +6,19 @@
 
 function areThereDuplicates() {
   // Two pointers
-  args.sort((a, b) => a > b);
+  args = Array.from(arguments).sort((a, b) => a > b);
+
   let start = 0;
   let next = 1;
   while (next < args.length) {
     if (args[start] === args[next]) {
+      console.log(true);
       return true
     }
     start++
     next++
   }
+  console.log(false);
   return false
 }
 
