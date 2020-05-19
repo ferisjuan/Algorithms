@@ -7,7 +7,7 @@
  * withhout order changing.
  */
 
-function isSunsequence(string1, string2) {
+function isSunsequenceV1(string1, string2) {
   var i = 0;
   var j = 0;
 
@@ -25,6 +25,7 @@ function isSunsequence(string1, string2) {
 
 function logger(arg) {
   console.log(arg);
+  return arg;
 }
 
 isSunsequence('hello', 'hello world'); // true
