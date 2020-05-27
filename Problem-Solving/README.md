@@ -44,6 +44,12 @@ Make yourself these questrions
   - can you think of other ways of refactor?
   - How have other people solved this problem?
 
+## Recursion
+> Recursive functions invoke the same function with a diferent unput until you reach your base case. The base case is where the recursion stops.
+  - Two esential parts of a recursive function!
+    - The base case, you have to kno it and program it well.
+    - Diferent input each time you call the recursive function.
+
 ### Problem Solving Patterns
 **1. Frequency Counters**
 > Use this to compare two lists throug an { key:value } object
@@ -68,3 +74,4 @@ Make yourself these questrions
   - Divide into smaller pieces
   - do something to each piece
   - Time complexity **O(log N)**
+
